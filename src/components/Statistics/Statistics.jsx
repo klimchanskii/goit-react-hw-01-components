@@ -3,7 +3,7 @@ import {randomColor} from 'randomColor'
 import {Title,Item  } from './Statistics.styled'
 import PropTypes from 'prop-types'
 
-export const Statistics = ({ title = title, stats }) => {
+export const Statistics = ({ title, stats }) => {
     
     return (
     <Box as='section' m='6'>
